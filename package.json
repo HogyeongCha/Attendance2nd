@@ -1,0 +1,19 @@
+{
+  "name": "attendance2nd",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate:qr": "node scripts/generate-qr-assets.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.99.1",
+    "next": "^15.2.4",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
