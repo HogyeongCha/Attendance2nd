@@ -5,7 +5,8 @@
   <img src="./public/assets/babylion_laughing.png" alt="Event mascot" width="96" />
 </p>
 
-한양대학교 공과대학 공간 리뉴얼 홍보 이벤트를 위해 만든 현장 출석 체크 웹 애플리케이션입니다.  
+한양대학교 제49대 공과대학 학생회 건설준비위원회 사무팀 기획의 공과대학 도서관 2 리뉴얼 홍보 사업 : 공도2 리뉴얼 오픈 이벤트 출석 페이지
+
 오프라인 공간 방문을 실제 데이터로 남겨야 했기 때문에, 단순 폼 수집이 아니라 `QR 토큰`, `GPS 반경 검증`, `연속 출석 규칙`, `관리자 운영 화면`까지 하나의 흐름으로 설계했습니다.
 
 [Live Demo](https://hyutech-renewall-2ndgongdo-attendan.vercel.app) · [Project Spec](./PROJECT.md) · [Schema](./schema.sql) · [RPC Logic](./supabase_rpc.sql)
