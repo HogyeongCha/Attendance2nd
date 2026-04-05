@@ -1,0 +1,47 @@
+# Dependencies & build
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+
+# IDE & OS
+.DS_Store
+.kiro/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel/
+
+# Operational data (not source code)
+ops/qr/
+db/dumps/
+db/extracts/
+db/seeds/
+data/
+archive/
+
+# Operational scripts (one-off event tooling)
+scripts/export-*
+scripts/migrate-*
+scripts/mark-project-archived.mjs
+
+# Expired GitHub Actions workflows
+.github/
+
+# Duplicate assets (public/assets/ is the canonical copy)
+assets/
+
+# Event output artifacts
+result.csv
+result.xlsx
+output/
+
+# Sensitive docs
+docs/@Values.txt
+docs/SecurityGuide.pdf
